@@ -1,4 +1,4 @@
-describe("isFromBellvile funtion", function(){
+describe("isFromBellvile function", function(){
 
     it("Registration numbers for Bellville should start with CY", function(){
         assert.equal(isFromBellville('CA 0986'), false);

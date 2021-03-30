@@ -1,4 +1,4 @@
-describe("regCheck", function(){
+describe("regCheck function", function(){
 
     it('The registration number should end with GP,L,EC,MP', function(){
         assert.equal(regCheck("CY 189-012", 'ND'), false);
