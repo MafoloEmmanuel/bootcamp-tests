@@ -1,12 +1,12 @@
 describe("isFromBellvile function", function(){
 
-    it("Registration numbers for Bellville should start with CY", function(){
+    it("Should return false for CA 0986", function(){
         assert.equal(isFromBellville('CA 0986'), false);
     });
-    it("Registration numbers for Bellville should start with CY", function(){
+    it("Should return true for CY 0986", function(){
         assert.equal(isFromBellville('CY 0986'), true);
     });
-    it("Registration numbers for Bellville should start with CY", function(){
+    it("Should return false for CA 986YT", function(){
         assert.equal(isFromBellville("CA 986YT"), false)
     })
 })
