@@ -1,6 +1,6 @@
 describe("isWeekDay function", function(){
 
-    it('should return true for Monday', function(){
+    it('should return true for Monday because its a weekday', function(){
         assert.equal(isWeekday('Monday'), true);
     });
     it('should return false for january because its a year and not a day', function(){
